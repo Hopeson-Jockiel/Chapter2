@@ -10,10 +10,10 @@ public class Multiples {
         System.out.print("Enter second integer: ");
         int num2 = input.nextInt();
 
-        if (num1 % num2 == 0) {
+        if (num1 % num2 == 0) 
             System.out.println(num1 + " is a multiple of " + num2);
-        } else {
+        if (num1 % num2 != 0)
             System.out.println(num1 + " is not a multiple of " + num2);
-        }
+        
     }
 }
