@@ -22,7 +22,7 @@ public class Productof3Nums {
 		
 		product = num1 * num2 * num3;
 		
-		System.out.printf (" The product is %d", product );
+		System.out.printf (" The product is %d%n", product );
 	
 	
 	
